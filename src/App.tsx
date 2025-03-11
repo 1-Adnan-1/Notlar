@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import Create from "./pages/Create";
@@ -68,8 +67,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="app-container">
-        {" "}
-        {/* Ana kapsayıcı div'e sınıf ekledik */}
+        {/* Ana kapsayıcı */}
         <Routes>
           <Route
             path="/"
